@@ -21,6 +21,7 @@ at the root directory (where this repo placed in your machine).
 ## Places can be improved
 
 - Use async process
+
   Currently it uses synchronous process, but, it can be run parallel
 
 In real world mining machine, they optimized this point to the extreme, by using dedicated GPU, etc.
