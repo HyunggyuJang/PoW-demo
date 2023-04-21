@@ -1,5 +1,5 @@
 import {createHash} from 'crypto'
-const base = '<YourHash>'
+const base = '<YourMessage>'
 function hash(string: string) {
   return createHash('sha256').update(string).digest('hex');
 }
